@@ -63,6 +63,7 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeQuitOnOpen = 1
+let NERDTreeMirror = 1
 
 " Keyboard mappings
 " Easier Leader
@@ -70,4 +71,7 @@ let mapleader=","
 " NERDTree mappings
 nnoremap <Leader>f :NERDTreeFind<Enter>
 nnoremap <Leader>t :NERDTreeToggle<Enter>
+" Remap arrow keys to move between tabs
+nnoremap <Left> :tabp<Enter>
+nnoremap <Right> :tabn<Enter>
 
