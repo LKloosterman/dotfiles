@@ -1,0 +1,8 @@
+[character]
+symbol = "⧫"
+style_success = "bold #66BB6A"
+style_failure = "bold #BF360C"
+
+[directory]
+truncation_length = 5
+style = "#B388FF"
